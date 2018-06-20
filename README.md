@@ -1,9 +1,7 @@
-![Logo of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter-logo_small.png "Logo of FireStarter") FireStarter
+![Logo of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter-logo_small.png "Logo of FireStarter") ApzStarter
 =========
 
-[![MPLv2 License](http://img.shields.io/badge/license-MPLv2-blue.svg?style=flat-square)](https://www.mozilla.org/MPL/2.0/)
-
-__FireStarter is a Non-Root Launcher Replacement / App-Drawer for Amazon FireTV:__
+__ApzStarter is a Non-Root Launcher Replacement / App-Drawer for Amazon FireTV:__
 
 Visit discussion on XDA-Developers: 
  * <a href="http://forum.xda-developers.com/fire-tv/themes-apps/app-root-home-launcher-replacement-app-t3118135" target="_blank">[APP] FireStarter | Non-Root Home Launcher Replacement / App-Drawer for FireTV</a>
@@ -43,14 +41,7 @@ __Standard installation via ADB__
  * ADB-Debugging needs to stay enabled (do not disable ADB-Debugging after installation).
  * Enjoy :)
  
-### Reviews / Articles:
- * [English / Installation Tutorial] <a href="https://www.youtube.com/watch?v=8_gkSeGBJP4" target="_blank">Amazon Fire Tv Stick How to install XBMC Kodi 15 and add-ons FireStarter IPTV iVue - YouTube</a>
- * [English /  Text] <a href="http://www.aftvnews.com/firestarter-is-a-non-root-launcher-replacement-with-fantastic-home-button-detection/" target="_blank">..aftvnews.com/firestarter-..-fantastic-home..detection/</a>
- * [English /  Text] <a href="http://myezsystem.com/firestarter-new-launcher-for-firetv-stick" target="_blank">..myezsystem.com/firestarter-new-launcher-for-firetv-stick</a>
- * [English / Video] <a href="https://www.youtube.com/watch?v=FEpqG6vRXrY" target="_blank">..youtube.com/watch?v=FEpqG6vRXrY</a>
- * [English / Video] <a href="https://www.youtube.com/watch?v=JMfaBTQ_N3I" target="_blank">..youtube.com/watch?v=JMfaBTQ_N3I</a>
 
- 
 ### Changelog:
  * [Check releases page for changelog ..](https://github.com/sphinx02/FireStarter/releases)
 
@@ -61,14 +52,9 @@ __Standard installation via ADB__
 
 ### Screenshots:
 
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_01.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_02.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_03.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_04.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_05.png "Screenshot of FireStarter")
 
 ### Why using it and how it works:
- * FireStarter is for all people who dont want to root (and therefore loose warranty) their FireTV's.
+ * ApzStarter is for all people who dont want to root (and therefore lose warranty) their FireTV's.
  * On the FireTV, Amazon allows no alternative default launchers and in the default launcher of Amazon, no sideloaded (via adb installed apps) are shown. They have to be started via the FireTV settings menu which is really inconvenient.
  * Solutions currently out there are either using root-rights to replace the home launcher or they are polling the top application in the background and then starting other apps if e.g. the Amazon default launcher is detected.
  * FireStarter uses the fact, that every time the home-button is clicked, there is a special output in the adb logcat log. FireStarter starts a local adb logcat session and waites for this output (which is only working as long adb is enabled in FireTV settings). This approach has the advantage, that the top activity dont has to change to detect a home-button click. FireStarter is therefore even able to detect a double-click and starting any actions on home-button single- or double-clicks.
@@ -76,11 +62,6 @@ __Standard installation via ADB__
 
 ### Credentials:
 
- * [markdown-editor](https://jbt.github.io/markdown-editor/) for markdown creation
- * [FiredTVLauncher](https://github.com/Redth/FiredTVLauncher) for a lot of brilliant ideas
+  * [FiredTVLauncher](https://github.com/Redth/FiredTVLauncher) for a lot of brilliant ideas
  * [XDA-User g4rb4g3](http://forum.xda-developers.com/showpost.php?p=56319876&postcount=87) for the home-button detection idea
  
-### Donation:
-If you want to support my developments you are welcome to buy me a cup of coffee :)
- * [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=sphinx02&url=https://github.com/sphinx02/FireStarter&title=FireStarter&language=java&tags=github&category=software)
- * <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KKQ6VU34YGKYS" target="_blank">PayPal donation link</a>
