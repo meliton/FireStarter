@@ -1,4 +1,4 @@
-![Logo of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter-logo_small.png "Logo of FireStarter") ApzStarter
+ApzStarter
 =========
 
 __ApzStarter is a Non-Root Launcher Replacement / App-Drawer for Amazon FireTV:__
